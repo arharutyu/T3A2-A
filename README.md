@@ -358,6 +358,10 @@ Though not directly linked to a user story, the home page provides clear links v
 
 ![User Profile Wireframe, Mobile](/docs/wireframes/OneUser_MOBILE.PNG)
 
+## Visual Sitemap
+
+![Visual Sitemap](/docs/visual%20sitemap.jpg)
+
 [Back to top](#t3a2-a---full-stack-app-part-a)
 
 # R6 Trello Board
