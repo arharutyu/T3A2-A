@@ -420,5 +420,8 @@ Additional screenshots of trello board management throughout the project:
 
 ![Trello board screenshot](/docs/trello/2023-08-17.png)
 
+*18/08/23*
+
+![Trello board screenshot](/docs/trello/2023-08-18.png)
 
 [Back to top](#t3a2-a---full-stack-app-part-a)
