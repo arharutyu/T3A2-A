@@ -408,6 +408,8 @@ Posting daily stand-ups to the Coder Academy discord
 
 Additional screenshots of trello board management throughout the project:
 
+![Trello board screenshot](/docs/trello/2023-08-16.png)
+
 ![Trello board screenshot](/docs/trello/2023-08-17.png)
 
 [Back to top](#t3a2-a---full-stack-app-part-a)
