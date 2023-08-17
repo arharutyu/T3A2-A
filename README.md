@@ -4,14 +4,14 @@
 ## Maximillian Pichlmann, Lachlan Peterson, Argine Harutyunyan
 
 ### Contents
-- R1 Description of website
-- R2 Dataflow Diagram
-- R3 Application Architecture Diagram
-- R4 User Stories
-- R5 Wireframes for multiple standard screen sizes
-- R6 Trello Board
+- [R1 Description of website](#r1-description-of-website)
+- [R2 Dataflow Diagram](#r2-dataflow-diagrams)
+- [R3 Application Architecture Diagram](#r3-application-architecture-diagram)
+- [R4 User Stories](#r4-user-stories)
+- [R5 Wireframes for multiple standard screen sizes](#r5-wireframes-for-multiple-standard-screen-sizes)
+- [R6 Trello Board](#r6-trello-board)
 
-# R1 Description of website 
+# R1 Description of website
 
 **Client**: Elite All-Stars Cheer & Dance
 
@@ -102,6 +102,8 @@ Node.js is an open-source, server-side JavaScript runtime environment, allowing 
 
 *bcrypt* – to securely store sensitive information (user passwords) as a hash 
 
+[Back to top](#t3a2-a---full-stack-app-part-a)
+
 # R2 Dataflow Diagrams
 
 ## CREATE/UPDATE/DELETE STUDENT  
@@ -116,6 +118,8 @@ Node.js is an open-source, server-side JavaScript runtime environment, allowing 
 6. The user is prompted to select a student from the page which is populated by data supplied by the student database collection, or if the user is an admin they can create a new student  
 7. If the user is an admin they are given the option to create a new student, edit student details or delete a student. Either changes made to the student are made and sent to the database, a new student is created and sent to the database, or the selected student is deleted from the database.   
 
+[Back to top](#t3a2-a---full-stack-app-part-a)
+
 # R3 Application Architecture Diagram
 
 ![Application Architecture Diagram](/docs/AAD.jpg)
@@ -125,6 +129,8 @@ Node.js is an open-source, server-side JavaScript runtime environment, allowing 
 2. As the users make use of functionality on the front end, requests are sent to the API, which is built with Express and utilises mongoose and node.js. These requests involve the API then retrieving and querying data from the database, wherein an appropriate response is sent back to the front end.  
 
 3. The database is managed by MongoDB and hosted using Atlas. Several database collections are used to store the necessary information, with these collections being manipulated by the CRUD functionality that is provided by the API.  
+
+[Back to top](#t3a2-a---full-stack-app-part-a)
 
 # R4 User Stories
 
@@ -182,6 +188,8 @@ Implementation sequencing key: 
 |HP|As an admin I want to add/update/delete users|
 |MP|As an admin I want to grant admin privileges|
 |ES|As a user I want to be able to reset my password|
+
+[Back to top](#t3a2-a---full-stack-app-part-a)
 
 # R5 Wireframes for multiple standard screen sizes
 
@@ -286,6 +294,8 @@ Though not directly linked to a user story, the home page provides clear links v
 
 ![User Profile Wireframe, Mobile](/docs/wireframes/OneUser_MOBILE.PNG)
 
+[Back to top](#t3a2-a---full-stack-app-part-a)
+
 # R6 Trello Board
  
 To plan, organize, and track the project, a trello board was created and all members of the project added.
@@ -335,3 +345,5 @@ Posting daily stand-ups to the Coder Academy discord
 Additional screenshots of trello board management throughout the project:
 
 ![Trello board screenshot](/docs/trello/2023-08-17.png)
+
+[Back to top](#t3a2-a---full-stack-app-part-a)
