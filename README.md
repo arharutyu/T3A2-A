@@ -11,6 +11,8 @@
 - [R5 Wireframes for multiple standard screen sizes](#r5-wireframes-for-multiple-standard-screen-sizes)
 - [R6 Trello Board](#r6-trello-board)
 
+[Part A GitHub Repo](https://github.com/arharutyu/T3A2-A#t3a2-a---full-stack-app-part-a)
+
 # R1 Description of website
 
 **Client**: Elite All-Stars Cheer & Dance
@@ -38,7 +40,7 @@ With a smaller client base of athletes, this process was more deemed to be manag
 
 Therefore, the following application aims to solve this problem. The Tumbling Skills Tracker – as the name suggest – is a web application that allows coaches and educators at Elite Allstars to track a tumbling athletes’ individual skills progression when conducting term assessments. This website provides a solution by making the individual skills progression of all students easily accessible for coaches. The staff at Elite Allstars will be able to logon to our website to view, edit, delete, or add any student information such as basic info, tumbling skills progression, and assessment scores. They will also be able to create new assessments each semester for specific individual students based off their personal skills progress. Thus, solving the problem by automating the record keeping process and transferring it online to our website by enabling a database to store information rather than a filing cabinet at Elite Allstars. In-turn this would allow for the precise tracking of any students tumbling skills progression - during term assessments or otherwise – which saves valuable time in class and allows coaches to easily review specific athletes progress over time.    
 
- 
+<br>
 
 ### Functionality/Features 
 
@@ -74,9 +76,13 @@ See specific assessment record
 View all skills 
 - See all skills within database and the associated level. 
 
+<br>
+
 ### Target Audience 
 
 Cheerleading / gymnastics coaches and business owners 
+
+<br>
 
 ### Tech Stack 
 
@@ -365,7 +371,9 @@ Though not directly linked to a user story, the home page provides clear links v
 [Back to top](#t3a2-a---full-stack-app-part-a)
 
 # R6 Trello Board
- 
+
+[Link to Part A Trello Board](https://trello.com/b/1d6FfjPa/part-a)
+
 To plan, organize, and track the project, a trello board was created and all members of the project added.
 
 Columns are created for each of the following:
@@ -410,6 +418,8 @@ Posting daily stand-ups to the Coder Academy discord
 
 ![Discord standup 2](/docs/trello/CAstandup.png)
 
+![Discord standup 3](/docs/trello/CAstandup3.png)
+
 Additional screenshots of trello board management throughout the project:
 
 *16/08/23*
@@ -423,5 +433,7 @@ Additional screenshots of trello board management throughout the project:
 *18/08/23*
 
 ![Trello board screenshot](/docs/trello/2023-08-18.png)
+
+![Trello board screenshot](/docs/trello/2023-08-18-2.png)
 
 [Back to top](#t3a2-a---full-stack-app-part-a)
