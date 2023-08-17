@@ -294,9 +294,44 @@ Columns are created for each of the following:
 - **On hold**: If there is an issue, blocker, or a card needs to be put on hold for a time it will be put in this column.
 - **Next up**: Meeting cards that are coming up are put in this column.
 - **Current Sprint**: All tasks that need to be completed in the current sprint have cards in this column.
-- **In Progress**: Cards that are being 
+- **In Progress**: Cards that are are actively being worked on will be in this column.
+- **Questions**: If any questions arise while a card is In Progress, it can be moved here so other team members can review.
+- **Done**: When a card is complete it is moved to this column.
 
 ![Trello columns](/docs/trello/2023-08-11.png)
 
-![]
+All requirement cards start in Current Sprint, until they are allocated to a team member, where a flag will be put on the card and it will be moved to In Progress.
+
+![Example of trello label](/docs/trello/labelflag.png)
+![Example of trello label 2](/docs/trello/label2.png)
+
+All planned meetings will have a new card created in Next Up. These cards will have planned agenda notes, with additional comments about actions post meeting.
+
+![Meeting Card](/docs/trello/meeting.png)
+![Meeting Card 2](/docs/trello/meeting2.png)
+
+Following the first group meeting, several set up actions were assigned to begin the project.
+![Set up project card](/docs/trello/setup.png)
+
+This includes allocation of discussed tasks once the trello board was set up.
+![Trello board overview after allocations](/docs/trello/2023-08-14.png)
+
+Once tasks are assigned, the group would keep in communication with various methods such as:
+
+Commenting on relevant trello cards to provide updates
+
+![R5 wireframes updates in comments](/docs/trello/wireframes.png)
+
+Communicating via group Discord creating relevant channels as the need arises, and voice calls to conduct planned meetings.
+
+![Discord channels](/docs/trello/discord.png)
  
+Posting daily stand-ups to the Coder Academy discord
+
+![Discord standup](/docs/trello/CAstandup2.png)
+
+![Discord standup 2](/docs/trello/CAstandup.png)
+
+Additional screenshots of trello board management throughout the project:
+
+![Trello board screenshot](/docs/trello/2023-08-17.png)
