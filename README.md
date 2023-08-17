@@ -15,7 +15,7 @@
 
 **Client**: Elite All-Stars Cheer & Dance
 
-**Web Application**: Tumbling Assessment Tracker
+**Web Application**: Tumbling Skills Tracker
 
 Tumbling is a physical activity in which athletes perform various skills or acrobatic movements - cartwheels, flips, rolls, twists and somersaults - by either running to gather forward momentum into a skill (running tumbling) or standing still to jump certain skills (standing tumbling). The most recognizable form of Tumbling is when gymnasts perform floor routines on sprung floors, however it is also popular and a prerequisite for competitive cheerleading.  
 
@@ -106,7 +106,22 @@ Node.js is an open-source, server-side JavaScript runtime environment, allowing 
 
 # R2 Dataflow Diagrams
 
-## CREATE/UPDATE/DELETE STUDENT  
+All dataflow diagrams will follow this key:
+
+![Dataflow Diagram Key](/docs/datadiagrams/key%20legend.jpg)
+
+## Login/Authorization
+
+![Login/Authorization Data Diagram](/docs/datadiagrams/login%20and%20auth.jpg)
+
+1. The website login page presents users with a form to input their login details, which will submit a post request to the backend to check if the supplied details belong to a user which exists in the database.  
+2. The server receives the request and executes the Login function which checks if the supplied details match a user’s login details in the database.  
+3. If the details do not match a user’s login details in the database an error is returned.  
+4. If the details match a user’s login details in the database they are passed to the createJWT function.  
+5. A JWT is then created and associated with the user that matches the provided user login details.  
+6. The login details which have been verified as well as the associated JWT are then returned to the front end 
+
+## Create/Update/Delete Student  
 
 ![CUD Student Dataflow Diagram](/docs/datadiagrams/create%20update%20or%20delete%20student.jpg)
 
@@ -117,6 +132,55 @@ Node.js is an open-source, server-side JavaScript runtime environment, allowing 
 5. From the home page the user selects ‘Students’ 
 6. The user is prompted to select a student from the page which is populated by data supplied by the student database collection, or if the user is an admin they can create a new student  
 7. If the user is an admin they are given the option to create a new student, edit student details or delete a student. Either changes made to the student are made and sent to the database, a new student is created and sent to the database, or the selected student is deleted from the database.   
+
+## New Assessment
+
+![New Assessment Dataflow Diagram](/docs/datadiagrams/create%20assessment.jpg)
+
+1. User arrives at login page and is prompted to enter their username and password 
+2. User details are sent to the database and checked in order to authenticate the login attempt 
+3. If the user exists and the details are correct the user is logged in 
+4. The home page will now render after a successful login  
+5. From the home page the user selects ‘New Assessment’ 
+6. The user is prompted to select a student and assessment level for the new assessment, the user’s options to choose from is supplied by the student database collection and the skills database collection respectively.  
+7. The user carries out the assessment, grading the student on each skill that has now populated the assessment form. 
+8. The assessment is submitted with all required data being sent to the assessment database collection.  
+
+## Update/Delete Assessment
+
+![Update/Delete Assessment Dataflow Diagram](/docs/datadiagrams/update%20or%20delete%20assessment.jpg)
+
+1. User arrives at login page and is prompted to enter their username and password 
+2. User details are sent to the database and checked in order to authenticate the login attempt 
+3. If the user exists and the details are correct the user is logged in 
+4. The home page will now render after a successful login  
+5. From the home page the user selects ‘Students’ 
+6. The user is prompted to select a student from the page which is populated by data supplied by the student database collection 
+7. On the specific students page the user can select from a range of assessments associated with that student which are supplied by the assessment database collection.  
+8. If the user is an admin they have the ability to update or delete a selected assessment. If they update an assessment those changes are made and the updated assessment is sent back to the database, if they choose to delete the assessment the assessment is deleted from the database.  
+
+## View Skills
+
+![View Skills Dataflow Diagram](/docs/datadiagrams/view%20skills.jpg)
+
+1. User arrives at login page and is prompted to enter their username and password 
+2. User details are sent to the database and checked in order to authenticate the login attempt 
+3. If the user exists and the details are correct the user is logged in 
+4. The home page will now render after a successful login  
+5. From the home page the user can select ‘skills’ to view a list of skills  
+6. A list of skills is supplied by the skills database collection and displayed on the page 
+
+## Create/Update/Delete User
+
+![Create/Update/Delete User Dataflow Diagram](/docs/datadiagrams/create%20update%20or%20delete%20user.jpg)
+
+1. User arrives at login page and is prompted to enter their username and password 
+2. User details are sent to the database and checked in order to authenticate the login attempt 
+3. If the user exists and the details are correct the user is logged in 
+4. The home page will now render after a successful login  
+5. From the home page if the user is an admin, they can then select ‘Users’ to view users 
+6. The user is prompted to select a user from the page which is populated by data supplied by the user database collection, or they can create a new user. 
+7. The user given the option to create a new student, edit user details or delete a user. Either changes made to the user are made and sent to the database, a new user is created and sent to the database, or the selected user is deleted from the database.   
 
 [Back to top](#t3a2-a---full-stack-app-part-a)
 
